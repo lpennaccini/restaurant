@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/aos.js"></script>
+</head>
+<body class="home">
+    <a name="home"></a>
+    <div class="socialbar">
+        <p>follow us</p>
+        <ul>
+            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+    </div>
+    <header id="stickybar">
+        <div class="logo">
+            <a  href="#">Logo sito</a>
+        </div>
+        <nav class="navbar">
+            <ul class="mainmenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ourmenu">Menu</a></li>
+                <li><a href="#ourservice">Services</a></li>
+                <li><a href="#ourcontacts">Contacts</a></li>
+            </ul>    
+        </nav>
+        <a class="btn-frame" href="#">Book Now</a>
+        <div id="button-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <main>
+        <!--HERO-->
+       <section id="hero">
+           <div class="hero__layer">
+               
+           </div>
+            <div class="hero">
+                <div>
+                    <h1>Restaurant template</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolore ipsa modi debitis minima libero minus voluptates.</p>
+                    <a class="btn" href="#">Order Now <i class="fas fa-long-arrow-alt-right"></i></a>     
+                </div>
+            </div>
+       </section>
+       <a name="features"></a>
+       <section id="feature" >
+           <div class="grid-2">
+            <div>
+                <img src="images/feature.jpg" alt="">
+            </div>
+
+               <div class="blog__post">
+                   <p>Our mission</p>
+                   <h2>Come and taste our dishes</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae corporis voluptas quis quos unde enim animi quam, 
+                       numquam dolor doloribus, obcaecati incidunt perferendis tempore sed odio doloremque nobis nam delectus.</p>
+                       <a href="#" class="btn">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+               </div>
+           </div>          
+       </section>
+       <!--END HERO-->
+       <!--OUR MENU-->
+       <a name="ourmenu"></a>
+       <section id="menu">
+           <div class="menu">
+               <p>Our Menu</p>
+               <h2>Explore dish of the day</h2>
+               <div class="spacer"></div>
+               <div class="grid-4">
+                   <div class="category-menu">
+                       <ul class="category-menu__tab">
+                           <li><a href="#" class="category-menu__tab__active">Breakfast</a></li>
+                           <li><a href="#">Lunch</a></li>
+                           <li><a href="#">Dinner</a></li>
+                           <li><a href="#">Party</a></li>
+                       </ul>
+                   </div>
+                   <div class="dishes">
+                       <img src="images/menu-1.jpg" alt="">
+                        <div class="dish__content">
+                            <p class="dish__content__title">Fruit Pasta</p>
+                            <p>Canadian Food</p>
+                            <p class="dish__content__price">€ 35</p>
+                        </div>
+                   </div>
+                   <div class="dishes">
+                       <img src="images/menu-2.jpg" alt="">
+                       <div class="dish__content">
+                            <p class="dish__content__title">Italian Mix</p>
+                            <p>Italian Food</p>
+                            <p class="dish__content__price">€ 35</p> 
+                       </div>
+                   </div>
+                   <div class="dishes">
+                       <img src="images/menu-3.jpg" alt="">
+                       <div class="dish__content">
+                            <p class="dish__content__title">Male Sorma</p>
+                            <p>Thai Food</p> 
+                            <p class="dish__content__price">€ 35</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!--END OUR MENU-->
+       <!--SERVICES-->
+       <a name="ourservice"></a>
+       <section id="services">
+           <div class="grid-2">
+               <div>
+                   <p>Our services</p>
+                   <h2>Why choose us?</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, molestias! Nobis doloribus eos rem, voluptate, pariatur eius ipsum exercitationem, consequuntur impedit reiciendis omnis aperiam delectus corrupti vero necessitatibus fuga ab!</p>
+                   <a href="#" class="btn">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div>
+                    <div class="grid-2 services__grid">
+                        <div class="services__grid__box">
+                            <i class="far fa-user fa-2x icon"></i>
+                            <p class="services__grid__box__title">Best chef</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nesciunt eum eveniet laboriosam.</p>
+                        </div>
+                        <div class="services__grid__box">
+                            <i class="fas fa-truck fa-2x icon"></i>
+                            <p class="services__grid__box__title">Fast delivery</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nesciunt eum eveniet laboriosam.</p>
+                        </div>
+                        <div class="services__grid__box">
+                            <i class="fas fa-headset fa-2x icon"></i>
+                            <p class="services__grid__box__title">h24 Support</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nesciunt eum eveniet laboriosam.</p>
+                        </div>
+                        <div class="services__grid__box">
+                            <i class="fas fa-hamburger fa-2x icon"></i>
+                            <p class="services__grid__box__title">Fresh food</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nesciunt eum eveniet laboriosam.</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+       <!--SERVICES-->
+       <!--COUSINE-->
+       <a name="ourcousine"></a>
+       <section id="cousine">
+           <div class="grid-2">
+               <div class="clip-img">
+                    <img src="images/bg-home-restaurant.jpg" alt="">
+               </div>
+               <div>
+                   <p>Our cousine</p>
+                   <h2>The secret of our finest cousine</h2>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni repellat quis debitis laboriosam expedita, repellendus facilis laborum error natus. Unde id atque fugiat inventore, ad aspernatur doloremque debitis ratione. Laborum.</p>
+                   <a class="btn" href="#">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+               </div>
+           </div>
+       </section>
+       <!--END COUSINE-->
+       <!--REVIEW-->
+       <a name="ourreview"></a>
+       <section id="review">
+           <h3>Clients review</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur natus facere architecto officia perspiciatis non aut maiores cupiditate eos.</p>
+            
+           <div class="review">
+               <div class="arrow-left">
+                   <p><i class="fas fa-chevron-left"></i></p>
+               </div>
+                <div class="review__box left-review">
+                    <img src="images/team-1.jpg" alt="">
+                </div>
+                <div class="review__box center-review">
+                    <img src="images/team-3.jpg" alt="">
+                    <p><strong>John Doe</strong></p>
+                    <p>"Lorem ipsum dolor sit amet consectetu"</p>
+                </div>
+                <div class="review__box right-review">
+                    <img src="images/team-4.jpg" alt="">
+                </div>
+                <div class="arrow-right">
+                    <p><i class="fas fa-chevron-right"></i></p>
+                </div>
+            </div>
+        </section>
+       <!--END REVIEW-->
+       <!--INSTAGRAM-->
+       <section id="instagram">
+           <section>
+                <p>Instagram</p>
+                <h3>Follow us in instagram</h3> 
+           </section>
+           <div class="instagram">
+               <div class="instagram__box">
+                   <img src="images/menu-1.jpg" alt="">
+               </div>
+               <div class="instagram__box">
+                <img src="images/menu-2.jpg" alt="">
+            </div>
+            <div class="instagram__box">
+                <img src="images/menu-3.jpg" alt="">
+            </div>
+            <div class="instagram__box">
+                <img src="images/menu-4.jpg" alt="">
+            </div>
+           </div>
+       </section>
+       <!--END INSTAGRAM-->
+    </main>
+    <a name="ourcontacts"></a>
+    <footer>
+        <div>
+            <h4>Restaurant</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <h4>More Pages</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contributors</a></li>
+                <li><a href="#">Write for Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Info</h4>
+            <ul>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Press</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Newsletter</h4>
+            <form class="form-newsletter" action="">
+                <input type="text" placeholder="enter your email" name="" id="email">
+                <input type="submit" value="send">
+            </form>
+            <div class="spacer"></div>
+            <p>Follow On</p>
+            <ul class="footer-socialbar">
+                <li><a href="#"><li><a href="https://www.instagram.com"><i class="fab fa-facebook fa-2x"></i></a></li></a></li>
+                <li><a href=""><li><a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li></a></li>
+                <li><a href=""><li><a href="https://www.instagram.com"><i class="fab fa-linkedin fa-2x"></i></a></li></a></li>
+                <li><a href=""><li><a href="https://www.instagram.com"><i class="fab fa-youtube fa-2x"></i></a></li></a></li>
+            </ul>
+        </div>
+    </footer>
+    <section id="credit">
+        <p>2021 - <a href="https://www.luigiwebdesigner.it" target="_blank">luigiwebdesigner.it</a></p>
+    </section>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
